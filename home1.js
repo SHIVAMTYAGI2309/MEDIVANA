@@ -129,7 +129,7 @@ for(i=0;i<numberofbuttons;i++){
       var audio= new Audio("./sounds/rain.mp3");
       audio.play();
        var vid=document.getElementById("x");
-        vid.src="./videos/Raindrops_Videvo.mp4";
+        vid.src="http://127.0.0.1:8887/Raindrops_Videvo.mp4";
         break;
         case "BEACH":
 

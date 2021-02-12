@@ -122,27 +122,27 @@ for(i=0;i<numberofbuttons;i++){
         var audio= new Audio("./sounds/Birds-chirping-sound-effect.mp3");
         audio.play();
        var vid=document.getElementById("x");
-        vid.src="./videos/bird eye.mp4";
+        vid.src="bird-eye.mp4";
 
         break;
       case "RAINFALL":
       var audio= new Audio("./sounds/rain.mp3");
       audio.play();
        var vid=document.getElementById("x");
-        vid.src="http://127.0.0.1:8887/Raindrops_Videvo.mp4";
+        vid.src="Raindrops_Videvo.mp4";
         break;
         case "BEACH":
 
         var audio= new Audio("./sounds/beach.mp3");
         audio.play();
          var vid=document.getElementById("x");
-          vid.src="./videos/15.mp4";
+          vid.src="15.mp4";
           break;
           case "MOUNTAINS":
           var audio= new Audio("./sounds/mount.mp3");
           audio.play();
            var vid=document.getElementById("x");
-            vid.src="./videos/mount.mp4";
+            vid.src="mount.mp4";
             break;
       default:
     }

@@ -118,28 +118,28 @@ for(i=0;i<numberofbuttons;i++){
     var sound=this.innerHTML;
     switch (sound) {
       case "BIRD'S EYE":
-        var audio= new Audio("./sounds/Birds-chirping-sound-effect.mp3");
-        audio.play();
        var vid=document.getElementById("x");
         vid.src="bird-eye.mp4";
+         var audio= new Audio("./sounds/Birds-chirping-sound-effect.mp3");
+        audio.play();
         break;
       case "RAINFALL":
-      var audio= new Audio("./sounds/rain.mp3");
-      audio.play();
        var vid=document.getElementById("x");
         vid.src="Raindrops_Videvo.mp4";
+         var audio= new Audio("./sounds/rain.mp3");
+      audio.play();
         break;
         case "BEACH":
-        var audio= new Audio("./sounds/beach.mp3");
-        audio.play();
          var vid=document.getElementById("x");
           vid.src="15.mp4";
+         var audio= new Audio("./sounds/beach.mp3");
+        audio.play();
           break;
           case "MOUNTAINS":
-          var audio= new Audio("./sounds/mount.mp3");
-          audio.play();
            var vid=document.getElementById("x");
             vid.src="mount.mp4";
+        var audio= new Audio("./sounds/mount.mp3");
+          audio.play();
             break;
       default:
     }
